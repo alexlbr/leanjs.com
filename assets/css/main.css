@@ -12,26 +12,25 @@ body {
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Open Sans",sans-serif;
-    font-weight: 700;
-    color: #333;
+	font-weight: 700;
+	color: #333;
 	margin-top: 20px;
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 h1 {
 	font-size: 35px;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	color: #555;
 	line-height: 45px;
 }
 
 h2 {
-	font-size:34px;
+	font-size:32px;
 }
 
 h3 {
-	font-size:28px;
+	font-size:27px;
 }
 
 
@@ -90,20 +89,24 @@ a:after {
 	padding-top: 70px;
 }
 
+/*
 .navbar {
 	padding-bottom: 35px;
 	padding-top: 35px;
 }
+*/
 
 .navbar-inverse {
 	background-color: #1abc9c;
 	border-color: #16a085;
 }
 
+/*
 .navbar a.active {
 	border: 1px solid #1abc9c;
-    border-radius: 5px;
+  border-radius: 5px;
 }
+*/
 
 .navbar-inverse .navbar-nav > li > a {
 	color: white;
@@ -298,7 +301,9 @@ i.fa {
 	color: #1abc9c;
 }
 .jumbo {
-	background-image: url("/assets/img/code_bg.jpg");
+	background-image: url("/assets/img/js-pattern.svg");
+	background-size: 90px 93px;
+	background-color: #1abc9c;
 	padding:80px 0;
 }
 
@@ -339,14 +344,23 @@ i.fa {
 	display: inline-block;
 }
 
-.navbar-brand {
+.navbar-brand img {
 
-	padding-top:0;
+	width:30px; 
+	margin-top:-3px;
+}
+.navbar-nav > li > a:hover {
+
+	color:#333;
 }
 
-.jumbo h1 strong {
-
-    font-size: 75px;
-    padding-top: 20px;
-    display: inline-block;
+.jumbo img {
+	-webkit-box-shadow: 0px 0px 164px 21px rgba(26,188,156,1);
+	-moz-box-shadow: 0px 0px 164px 21px rgba(26,188,156,1);
+	box-shadow: 0px 0px 164px 21px rgba(26,188,156,1);
+	background-color: rgba(26, 188, 156, 0.65);
+	border-radius:25%;
+	width:300px;
+	margin-top:50px;
+	margin-bottom:50px;
 }
