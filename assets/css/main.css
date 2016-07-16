@@ -334,6 +334,11 @@ i.fa {
 	margin-left:-50px;
 	top:0;
 }
+
+.triangle-green {
+	border-color: #1abc9c transparent transparent transparent;
+}
+
 .navbar-toggle .fa {
 	
 	font-size: 25px;
