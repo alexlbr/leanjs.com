@@ -36,9 +36,15 @@ h3 {
 
 
 /* Paragraph & Typographic */
-p , li{
+p {
     line-height: 25px;
     font-size: 16px;
+}
+
+/* Paragraph & Typographic */
+.row li{
+    font-size: 16px;
+		padding: 3px 0;
 }
 
 /* Links */
@@ -263,11 +269,12 @@ li li {
 	
 	padding:20px 0;		
 }
+/*
 .bg-warning .glyphicon {
 	
 	padding-bottom:20px;
 }
-
+*/
 .bg-warning {
 
 	position:relative;
