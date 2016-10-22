@@ -80,7 +80,7 @@ a:after {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1em 0;
+    margin: 2.5em 0;
     padding: 0;
 }
 
@@ -158,7 +158,7 @@ a:after {
 }
 
 .grey-bg {
-	
+
 	background-color: #EEE;
 }
 .green-bg {
@@ -176,7 +176,7 @@ a:after {
 	background-color: #2f2f2f;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	color: white; 
+	color: white;
 }
 
 
@@ -223,10 +223,10 @@ bt {
 
 /* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
 /* Effects also are controled by hover.zoom.js */
-.zoom { 
-    display:block; 
-    position:relative; 
-    overflow:hidden; 
+.zoom {
+    display:block;
+    position:relative;
+    overflow:hidden;
     background:transparent url(../img/loader.gif) no-repeat center;
 }
 
@@ -266,12 +266,12 @@ li li {
 }
 
 .bg-warning h4 {
-	
-	padding:20px 0;		
+
+	padding:20px 0;
 }
 /*
 .bg-warning .glyphicon {
-	
+
 	padding-bottom:20px;
 }
 */
@@ -281,11 +281,11 @@ li li {
 }
 
 .anchor-link:hover a span {
-	
+
 	opacity:1;
 }
 .anchor-link a {
-	
+
 	position:relative;
 }
 .anchor-link a span {
@@ -333,7 +333,7 @@ i.fa {
 	font-size:18px;
 }
 .price .label {
-	
+
 	font-size: 22px;
 }
 .triangle {
@@ -353,18 +353,18 @@ i.fa {
 }
 
 .navbar-toggle .fa {
-	
+
 	font-size: 25px;
 }
 
 .text-center .img-responsive {
-	
+
 	display: inline-block;
 }
 
 .navbar-brand img {
 
-	width:30px; 
+	width:30px;
 	margin-top:-3px;
 }
 .navbar-nav > li > a:hover {
@@ -381,4 +381,12 @@ i.fa {
 	margin-top:50px;
 	margin-bottom:50px;
 	width: 60%;
+}
+
+
+.section-made-of {
+  background-image: url('/assets/img/amazing-devs.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  padding:100px 0 200px;
 }
