@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://leanjs.com/sitemap.xml
